@@ -1,0 +1,24 @@
+package com.ccyy.designPattern.structural.flyweight.trees;
+
+import java.awt.*;
+
+/**
+ * @author: lianghanmao
+ * @create: 2022-03-07
+ * @description: 树
+ **/
+public class Tree {
+    private int x;
+    private int y;
+    private TreeType type;
+
+    public Tree(int x, int y, TreeType type) {
+        this.x = x;
+        this.y = y;
+        this.type = type;
+    }
+
+    public void draw(Graphics g) {
+        type.draw(g, x, y);
+    }
+}
