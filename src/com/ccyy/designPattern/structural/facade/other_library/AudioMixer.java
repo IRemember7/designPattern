@@ -1,4 +1,4 @@
-package com.ccyy.designPattern.structural.decorator.other_library;
+package com.ccyy.designPattern.structural.facade.other_library;
 
 import java.io.File;
 
